@@ -243,6 +243,9 @@ h3 { font-size: 1.5rem; font-weight: 600; }
   gap: 1.5rem;
 }
 
+  
+
+
 .service-card {
   background: var(--white);
   border-radius: 12px;
@@ -566,6 +569,12 @@ footer {
   .gallery-item:first-child { grid-column: auto; grid-row: auto; }
   .footer-top { grid-template-columns: 1fr 1fr; }
   .hero-stats { display: none; }
+
+  .services-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
 }
 
 @media (max-width: 680px) {
